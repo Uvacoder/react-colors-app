@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\public",
+    "\\src",
+    "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\colorHelpers.js",
+  "SelectedNode": "\\src\\styles\\ColorBoxStyles.js",
   "PreviewInSolutionExplorer": false
 }
