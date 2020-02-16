@@ -1,4 +1,3 @@
-import chroma from "chroma-js";
 
 export default {
     Palette: {
@@ -20,7 +19,6 @@ export default {
         opacity: "1",
         backgroundColor: "black",
         "& a": {
-            color: "white",
             width: "100px",
             height: "30px",
             position: "absolute",
