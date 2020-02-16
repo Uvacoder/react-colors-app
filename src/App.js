@@ -25,7 +25,7 @@ class App extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/palette/new" render={(routeProps) => <NewPaletteForm savePalette={this.savePalette} {...routeProps} />} />
+                <Route exact path="/palette/new" render={(routeProps) => <NewPaletteForm savePalette={this.savePalette} palettes={this.state.palettes} {...routeProps} />} />
                 <Route exact path="/palette/:paletteId/:colorId" render={routeProps => (
                     <SingleColorPalette
                         colorId={routeProps.match.params.colorId}
