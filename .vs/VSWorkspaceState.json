@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
     "\\src",
     "\\src\\styles"
   ],
-  "SelectedNode": "\\src\\styles\\ColorBoxStyles.js",
+  "SelectedNode": "\\src\\PaletteFormNav.js",
   "PreviewInSolutionExplorer": false
 }
