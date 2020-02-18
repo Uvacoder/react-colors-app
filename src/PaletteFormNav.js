@@ -32,7 +32,7 @@ class PaletteFormNav extends Component {
 
     render() {
         const { classes, open } = this.props;
-        const newPaletteName = this.state;
+        const { newPaletteName } = this.state;
         return (
             <div>
             <CssBaseline />
