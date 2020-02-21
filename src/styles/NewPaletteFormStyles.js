@@ -6,7 +6,6 @@ const styles = theme => ({
         display: 'flex',
     },
 
-    
     drawer: {
         width: drawerWidth,
         flexShrink: 0,

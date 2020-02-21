@@ -1,7 +1,5 @@
-import { DRAWER_WIDTH } from "../constants";
-import sizes from "./Sizes";
+import sizes from "./sizes";
 
-const drawerWidth = DRAWER_WIDTH;
 const styles = {
     root: {
         width: "20%",

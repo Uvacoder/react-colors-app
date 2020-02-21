@@ -1,4 +1,4 @@
-import sizes from "./Sizes";
+import sizes from "./sizes";
 
 export default {
     Palette: {

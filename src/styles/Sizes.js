@@ -1,17 +1,16 @@
 
-
 export default {
     up() {
 
     },
     down(size) {
         const sizes = {
-            xs: "575.98",
-            sm: "767.98",
-            md: "991.98",
-            lg: "1199.98"
-        }
-        return `@media (max-width: ${sizes[size]})`
+            xs: "575.98px",
+            sm: "767.98px",
+            md: "991.98px",
+            lg: "1199.98px",
+            xl: "1600px"
+        };
+        return `@media (max-width: ${sizes[size]})`;
     }
-}
-
+};
