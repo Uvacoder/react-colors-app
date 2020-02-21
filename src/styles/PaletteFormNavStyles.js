@@ -1,3 +1,5 @@
+import sizes from "./Sizes";
+
 const drawerWidth = 400;
 
 const styles = theme => ({
@@ -25,7 +27,8 @@ const styles = theme => ({
        
     },
     menuButton: {
-        marginRight: theme.spacing(2),
+        marginLeft: 12,
+        marginRight: 20
     },
     navBtns: {
         marginRight: "1rem",
@@ -33,8 +36,16 @@ const styles = theme => ({
             textDecoration: "none"
         }
     },
+   
+    [sizes.down("xs")]: {
+        marginRight: "0.5rem"
+    },
     button: {
         margin: "0 0.5rem",
+        [sizes.down("xs")]: {
+            margin: "0 0.2",
+            padding: "0.3rem"
+        },
     }
 });
 
