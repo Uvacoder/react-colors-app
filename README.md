@@ -1,5 +1,7 @@
 This project was built for Udemy course "Modern React Bootcamp" and was bootstrapped with create-react-app.
 
+https://nikkipeel.github.io/react-colors-app/
+
 This is a responsive React application that allows a user to browse pre-generated color palettes or to create their own for future use. I've found this to be particularly useful in choosing hex colors to save for my own web projects. 
 
 <ul> React Colors App uses the following tools: <br>
